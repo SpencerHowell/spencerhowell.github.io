@@ -12,7 +12,7 @@ I believe an entrepreneurial spirit can be applied to any project. I use my unde
 Check out my blog posts for more information about my projects and experiences!
 
 ### Resume
-[See the most recent version of my resume here.](/resume.pdf)
+[See the most recent version of my resume here.](/resume-howell-spencer.pdf)
 
 ### Contact me
 
