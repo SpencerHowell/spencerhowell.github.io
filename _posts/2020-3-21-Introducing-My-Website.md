@@ -3,6 +3,8 @@ layout: post
 title: Introducing My Website
 ---
 
+*Thanks for visiting!*
+
 Hello, and welcome to my website!
 
 I hope to use this space to blog about software development, student life, and entrepreneurship. I would also like to show off some of my side projects here as well. 

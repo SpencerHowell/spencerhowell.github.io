@@ -3,6 +3,8 @@ layout: post
 title: My Silicon Valley Experience 
 ---
 
+*Tech giants, startups, and In-N-Out*
+
 At the end of the Spring 2019 semester, I was given the opportunity to go on a trip with the Min H. Kao Department of Electrical Engineering and Computer Science.
 
 This trip, dubbed the "Silicon Valley Experience," gave a group of students the opportunity to visit the San Francisco area and learn about several different companies operating there.
