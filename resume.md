@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Resume 
+permalink: /resume/
 ---
 
 This is where my resume will go!
