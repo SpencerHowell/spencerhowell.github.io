@@ -46,7 +46,7 @@ Of course, the trip wasn’t all business! The group had plenty of time to see t
 *Here I am at the Golden Gate bridge! The weather was a little chillier than I thought it would be in May!*
 
 ## In-N-Out
- Having lived my entire life in the southeastern US, I have never had the opportunity to try In-N-Out burger. While my first experience was definitely great, when the whole group went back the next day I tried the “Animal Style” burger and fries. Let me tell you, this is a game changer. This is one of the best burgers I have ever had, and I will definitely have to make a trip back solely for In-N-Out and some point.
+ Having lived my entire life in the southeastern US, I have never had the opportunity to try In-N-Out burger. While my first experience was definitely great, when the whole group went back the next day I tried the “Animal Style” burger and fries. Let me tell you, this is a game changer. This is one of the best burgers I have ever had, and I will definitely have to make a trip back solely for In-N-Out at some point.
 
 ![The In-N-Out Animal Style Burger](/images/in-n-out.jpg)
 *10/10 would recommend. Definitely get the Animal Style.*

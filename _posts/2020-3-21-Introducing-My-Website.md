@@ -11,6 +11,6 @@ I hope to use this space to blog about software development, student life, and e
 
 To kick off the site, I have uploaded some articles that are written in retrospect of experiences I have had during my undergraduate career. The dates on the posts indicate when the experience took place, not necessarily when the final article was published. 
 
-I used the excellent [Jekyll Now repository](https://github.com/barryclark/jekyll-now) to quickly create this site. This generates a fast static site and allows me to write blog posts in Markdown, which I find really enjoyable. The experience has also allowed me to broaden my experience with web development. I would highly recommend this if you're looking to create your own blog!
+I used the excellent [Jekyll Now repository](https://github.com/barryclark/jekyll-now) to quickly create this site. This generates a fast static site and allows me to write blog posts in Markdown, which I find really enjoyable. The experience has also allowed me to broaden my knowledge of web development. I would highly recommend this if you're looking to create your own blog!
 
 Stay tuned for more posts!
