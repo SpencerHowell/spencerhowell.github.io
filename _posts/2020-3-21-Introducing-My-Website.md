@@ -2,7 +2,6 @@
 layout: post
 title: Introducing My Website
 ---
-
 *Thanks for visiting!*
 
 Hello, and welcome to my website!
