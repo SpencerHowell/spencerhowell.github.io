@@ -9,7 +9,7 @@ This trip, dubbed the "Silicon Valley Experience," gave a group of students the 
 
 I had a wonderful time with the group that went, and I learned a lot about the tech industry and the San Francisco area! Below are some of the highlights from the week.
 
-![Picture of me at Lombard Street](../img/lombard-street.jpg)
+![Picture of me at Lombard Street]({{ site.baseurl }}/images/lombard-street.jpg)
 *The view from Lombard Street was great!*
 
 ## Silicon Valley Companies
@@ -27,7 +27,7 @@ A major part of the trip was visiting different companies in the area and learni
 
   - **Pariveda Solutions** let us come into their San Francisco office and chat with the managers and developers. I learned a lot about the business model of a consulting company and decided that being a consultant is an enticing career path option! 
 
-![The HP Garage](../img/hp-garage.jpg)
+![The HP Garage]({{ site.baseurl }}/images/hp-garage.jpg)
 *The garage that HP (and Silicon Valley) was started out of!*
 
 ## San Francisco Sights
@@ -40,13 +40,13 @@ Of course, the trip wasn’t all business! The group had plenty of time to see t
 
   - **The University of Tennessee Alumni Association** welcomed us to one of their chapter meetings! It was great to speak with professionals in the area and learn about their advice for careers and for living in San Fran. And of course, we could talk about how the Volunteer football team was doing!
 
-![Me at the Golden Gate Bridge](../img/me-at-golden-gate.jpg)
+![Me at the Golden Gate Bridge]({{ site.baseurl }}/images/me-at-golden-gate.jpg)
 *Here I am at the Golden Gate bridge! The weather was a little chillier than I thought it would be in May!*
 
 ## In-N-Out
  Having lived my entire life in the southeastern US, I have never had the opportunity to try In-N-Out burger. While my first experience was definitely great, when the whole group went back the next day I tried the “Animal Style” burger and fries. Let me tell you, this is a game changer. This is one of the best burgers I have ever had, and I will definitely have to make a trip back solely for In-N-Out and some point.
 
-![The In-N-Out Animal Style Burger](../img/in-n-out.jpg)
+![The In-N-Out Animal Style Burger]({{ site.baseurl }}/images/in-n-out.jpg)
 *10/10 would recommend. Definitely get the Animal Style.*
 
 ## Conclusion
@@ -54,5 +54,5 @@ Overall, this trip was incredible both professionally and personally. It allowed
 
 Huge thank you to the UTK EECS department for giving me the opportunity for this trip!
 
-![Group Selfie](../img/silicon-valley-experience-group.jpg)
+![Group Selfie]({{ site.baseurl }}/images/silicon-valley-experience-group.jpg)
 *The great group I was with!*
