@@ -2,13 +2,13 @@
 layout: post 
 title: What I Learned at my First Software Engineering Internship
 ---
-*An introduction to the industry*
+*My experience at Garmin*
 
 For twelve weeks over this past summer I worked at Garmin, Inc. as a Software Engineer Intern at their headquarters in Olathe, Kansas.
 
 I worked with the team that developed the [Vivofit Jr. mobile app](https://buy.garmin.com/en-US/US/p/568169) for both Android and iOS platforms. I was able to operate as an additional member of the team, taking tickets and implementing features that will be released in future versions of the app. 
 
-Being my first software engineering internship, there was a lot to learn during my time with the team, and they were incredibly supportive throughout. Here are my biggest takeaways from the summer:
+This being my first software engineering internship, there was a lot to learn during my time with the team, and they were incredibly supportive throughout. Here are my biggest takeaways from the summer:
 
 ![Picture of me at Garmin](/images/me-at-garmin.jpg)
 
@@ -24,7 +24,7 @@ While I had knowlege of the Agile methodology before, participating in it allowe
 
 After submitting patches to implement tickets, the code would go through code review. The team used Gerrit to view and annotate submitted code.
 
-I would say code review is where the majority of my learning happened over the summer. Comments left by the rest of my team allowed me to learn best practices, conventions used in the rest of the codebase, and efficiency improvements.
+I would say code review is where the majority of my learning ocurred over the summer. Comments left by the rest of my team allowed me to learn best practices, efficiency improvements, and conventions used in the rest of the codebase.
 
 While this process was intimidating at first, and my earliest patches had to go through many revisions, the rest of the team was always patient and happy to help me. Special thanks to my mentor for the summer, Collin, for all his help with this!
 
@@ -32,11 +32,13 @@ In future internships, I am prepared to use code review to continue learning and
 
 ### 3. Mobile development best practices
 
-Through my work, I was able to learn a ton about mobile app development. While I had some experience with Android development before starting, the features I implemented at Garmin required me to learn about support for multiple languages, device types, operating systems, and more.
+Through my work, I was able to learn a ton about mobile app development. While I had some experience with Android development before starting, the features I implemented at Garmin required me to learn about support for multiple languages, various device types, different operating systems, and more.
 
-On the Android side of things, I was able to work extensively with building layouts, creating activities, utilizing fragments, and connecting them all together. Jumping into a large Android codebase was a challenge at first, but it allowed me to see how large apps are managed and how various features are implemented.
+On the Android side of things, I was able to work extensively with building layouts, creating activities, utilizing fragments, and connecting them all together. Jumping into a large Android codebase was a challenge at first, but it allowed me to see how large apps are managed and how various features can be implemented.
 
 Going into the summer, I had no experience developing iOS apps (mostly because I don't have a macOS computer!) Therefore, I started with simple tickets to gain familiarity with the iOS framework and the Swift language. I was able to successfully complete a few of these simple tickets, and I hope to learn even more about native iOS development in future internships.
+
+My advice to other interns: pay attention to the little things! The style choices, design patterns, and best practices for the framework you are working within have been selected by the team for a reason. Learn as much as you can from the team about the technologies you are using.
 
 ### BONUS: Kansas City Fun!
 
@@ -53,11 +55,11 @@ The summer wasn't all work! I had a blast exploring the Kansas City area with th
 
 ### Intern at Garmin!
 
-Overall, I had an amazing summer interning with Garmin! Interns are able to learn a lot by partnering with a mentor and working on meaningful projects that will be used by customers. And interns receive great benefits such as provided housing, PTO, and lots of fun activities sponsored by Garmin!
+Overall, I had an amazing summer as an intern with Garmin! Interns are able to learn a lot through working on meaningful projects that will be used by customers, and all interns are paired with a mentor to answer any questions they might have. Interns also receive great benefits such as provided housing, PTO, and lots of fun activities sponsored by Garmin!
 
 My favorite part of the summer was being able to meet and make friends with so many other interns. With over 100 interns each summer, there is a community of people to hang out with and learn from!
 
-If you're interested in an internship with Garmin, check out the [Garmin Careers page](careers.garmin.com) to apply! Feel free to reach out to me if you have any questions! 
+If you're interested in an internship with Garmin, check out the [Garmin Careers page](http://careers.garmin.com) to apply! Feel free to reach out to me if you have any questions! 
 
 ![Garmin Interns](/images/garmin-ambassadors.jpg)
 *Here are just some of the amazing friends I met this summer!*
