@@ -2,7 +2,7 @@
 layout: post 
 title: What I Learned at my First Software Engineering Internship
 ---
-*My experience at Garmin*
+*My experience at Garmin Inc.*
 
 For twelve weeks over this past summer I worked at Garmin, Inc. as a Software Engineer Intern at their headquarters in Olathe, Kansas.
 
@@ -36,7 +36,7 @@ Through my work, I was able to learn a ton about mobile app development. While I
 
 On the Android side of things, I was able to work extensively with building layouts, creating activities, utilizing fragments, and connecting them all together. Jumping into a large Android codebase was a challenge at first, but it allowed me to see how large apps are managed and how various features can be implemented.
 
-Going into the summer, I had no experience developing iOS apps (mostly because I don't have a macOS computer!) Therefore, I started with simple tickets to gain familiarity with the iOS framework and the Swift language. I was able to successfully complete a few of these simple tickets, and I hope to learn even more about native iOS development in future internships.
+Going into the summer, I had no experience developing iOS apps (mostly because I don't have a macOS computer!) Therefore, I started with simple tickets to gain familiarity with the iOS framework and the Swift language. I was able to successfully complete several tickets, and I hope to learn even more about native iOS development in future internships.
 
 My advice to other interns: pay attention to the little things! The style choices, design patterns, and best practices for the framework you are working within have been selected by the team for a reason. Learn as much as you can from the team about the technologies you are using.
 
@@ -57,7 +57,7 @@ The summer wasn't all work! I had a blast exploring the Kansas City area with th
 
 Overall, I had an amazing summer as an intern with Garmin! Interns are able to learn a lot through working on meaningful projects that will be used by customers, and all interns are paired with a mentor to answer any questions they might have. Interns also receive great benefits such as provided housing, PTO, and lots of fun activities sponsored by Garmin!
 
-My favorite part of the summer was being able to meet and make friends with so many other interns. With over 100 interns each summer, there is a community of people to hang out with and learn from!
+My favorite part of the summer was being able to meet and make friends with other interns. With over 100 interns each summer, there is a community of great people to hang out with and learn from!
 
 If you're interested in an internship with Garmin, check out the [Garmin Careers page](http://careers.garmin.com) to apply! Feel free to reach out to me if you have any questions! 
 
