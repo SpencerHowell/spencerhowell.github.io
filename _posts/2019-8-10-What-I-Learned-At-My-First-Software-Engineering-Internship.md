@@ -1,10 +1,10 @@
 ---
 layout: post 
-title: What I Learned at my First Software Engineering Internship
+title: What I Learned at My First Software Engineering Internship
 ---
-*My experience at Garmin Inc.*
+*My experience at Garmin Ltd.*
 
-For twelve weeks over this past summer I worked at Garmin, Inc. as a Software Engineer Intern at their headquarters in Olathe, Kansas.
+For twelve weeks over this past summer I worked at Garmin Ltd. as a Software Engineer Intern at their headquarters in Olathe, Kansas.
 
 I worked with the team that developed the [Vivofit Jr. mobile app](https://buy.garmin.com/en-US/US/p/568169) for both Android and iOS platforms. I was able to operate as an additional member of the team, taking tickets and implementing features that will be released in future versions of the app. 
 
