@@ -38,7 +38,7 @@ Notes
   - Kotlin requires a default return value, which is why the default case is included.
   - This definitely isn't the fastest solution, as those would likely use a HashMap or similar data structure.
 
-# Leetcode Day 2: Reverse Integer
+### Day 2: Reverse Integer
 [Link to the Problem](https://leetcode.com/problems/reverse-integer/)
 
 My Solution
