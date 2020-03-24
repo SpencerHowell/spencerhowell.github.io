@@ -2,7 +2,7 @@
 layout: post
 title: The Leetcode-A-Day Challenge
 ---
-**To become a leet coder**
+*To become a leet coder*
 
 During the coronavirus quarantine, I am challenging myself to complete one Topcoder problem each day. Might as well put this free time to good use!
 
