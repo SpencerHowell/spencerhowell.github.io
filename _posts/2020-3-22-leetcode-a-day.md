@@ -4,7 +4,7 @@ title: The Leetcode-A-Day Challenge
 ---
 *To become a leet coder*
 
-During the coronavirus quarantine, I am challenging myself to complete one Topcoder problem each day. Might as well put this free time to good use!
+During the coronavirus quarantine, I am challenging myself to complete one Leetcode problem each day. Might as well put this free time to good use!
 
 I will be completing each problem in the Kotlin language, as I want to continue to become more familiar with its features and best practices.
 
@@ -39,7 +39,7 @@ Notes
   - This definitely isn't the fastest solution, as those would likely use a HashMap or similar data structure.
 
 ### Day 2: Reverse Integer
-[Link to the Problem](https://leetcode.com/problems/reverse-integer/)
+[Link to the problem](https://leetcode.com/problems/reverse-integer/)
 
 My Solution
 ```kotlin
@@ -77,3 +77,68 @@ Notes
   - My solution was still more memory-efficient than 100% of Kotlin submissions. Nice!
   - If speed was the priority, then it would be more efficient to stop as soon as an overflow occurs to avoid wasting cycles.
 - The key to this problem, and to many Leetcode problems, is to *always think about the overflow conditions!*
+
+### Day 3: Palindrome Number
+[Link to the problem](https://leetcode.com/problems/palindrome-number/)
+
+My Solution
+```kotlin
+class Solution {
+    fun isPalindrome(x: Int): Boolean {
+        return (x.toString() == x.toString().reversed())
+    }
+}
+```
+
+Notes
+- This was just a quick one for today!
+- I wanted to see if I could solve it in one line - and I did!
+- The follow-up challenge is to do it without converting to a string. I'll update here when I get a chance to do so!
+
+### Day 4: String to Integer (atoi)
+[Link to the problem](https://leetcode.com/problems/string-to-integer-atoi/)
+
+My Solution
+```kotlin
+class Solution {
+    fun myAtoi(str: String): Int {
+        var start = 0 // The starting index of the substring to process
+        var end = 0 // The ending index of the substring to process
+        var multiplier = 1 // Sets the sign of the result
+        
+        // Skip whitespace
+        while (start != str.length && str.get(start) == ' ') { start++ }
+        if (start == str.length) return 0
+        
+        // Check for plus or minus
+        if (str.get(start) == '-') {
+            multiplier = -1
+            start++
+        } else if (str.get(start) == '+') {
+            start++ // Skip the plus sign, keep multiplier as 1
+        }
+        
+        // Find the end of the digit sequence
+        end = start
+        while (end != str.length && str.get(end).isDigit()) { 
+            end++ 
+        }
+        if (end == start) return 0
+        
+        // Check for overflow / underflow and return
+        try {
+            return str.substring(start, end).toInt() * multiplier
+        }
+        catch (e: NumberFormatException) {
+            return if (multiplier == 1) Int.MAX_VALUE else Int.MIN_VALUE
+        }
+    }
+}
+```
+
+Notes
+- While I love features like `filter` and `forEach` in Kotlin, this was one problem where they were not very useful due to the various edge cases.
+    - For example, filtering out whitespace seemed like a good idea, but if input string is `1234 5678` the result will be incorrect.
+    - If you know a way to use these methods (without an early break) let me know!
+- For more control, I ended up using String methods to find the desired substring, and then converting it to an Int.
+- This problem gave me a chance to hone my error-catching skills. This helped to simplify the min and max value results.
