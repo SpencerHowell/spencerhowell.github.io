@@ -142,3 +142,60 @@ Notes
     - If you know a way to use these methods (without an early break) let me know!
 - For more control, I ended up using String methods to find the desired substring, and then converting it to an Int.
 - This problem gave me a chance to hone my error-catching skills. This helped to simplify the min and max value results.
+
+### Day 5: Add Two Numbers
+[Link to the problem](https://leetcode.com/problems/add-two-numbers/)
+
+My Solution
+```kotlin
+/**
+ * Example:
+ * var li = ListNode(5)
+ * var v = li.`val`
+ * Definition for singly-linked list.
+ * class ListNode(var `val`: Int) {
+ *     var next: ListNode? = null
+ * }
+ */
+class Solution {
+    fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
+        var listOne : ListNode? = l1
+        var listTwo : ListNode? = l3
+        var result : ListNode? = null 
+        var resultHead : ListNode? = null
+        var digit = 0
+        var carry = 0
+        
+        while(listOne != null || listTwo != null || carry != 0) {
+            digit = carry 
+            
+            if (listOne != null) {
+                digit += listOne.`val`
+                listOne = listOne.next
+            }
+            if (listTwo != null) {
+                digit += listTwo.`val`
+                listTwo = listTwo.next
+            }
+            
+            carry = digit / 10
+            digit = digit % 10
+            if (result == null) {
+                result = ListNode(digit)
+                resultHead = result
+            }  else {
+                result.next = ListNode(digit)
+                result = result.next
+            }
+        }
+        
+        return resultHead 
+    }
+}
+```
+
+Notes:
+- This one was a little more involved! The trickiest part for me wasn't the logic, but figuring out how to get Kotlin to play nice with lower-level programming. This is different from what I do with Android development!
+- It looks like the problem is actually outdated: the ListNode class is declared with a `var` parameter, which is now no longer supported. I was not sure how to handle this at first. Turns out backticks are required to access the property.
+- Another consideration was keeping track of the result: while I needed to access the most recent node of the resulting list, I had to keep a reference to the head of the list available. The head of the list is returned for the final result at the end. Otherwise only the last node will be submitted!
+- My result did well on speed; it's faster than 83% of other Kotlin submissions. It also uses less memory than 100% of other Kotlin submissions.
