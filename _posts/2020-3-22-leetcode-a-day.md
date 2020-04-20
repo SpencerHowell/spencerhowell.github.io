@@ -4,7 +4,7 @@ title: The Leetcode-A-Day Challenge
 ---
 *To become a leet coder*
 
-During the coronavirus quarantine, I am challenging myself to complete one Leetcode problem each day. Might as well put this free time to good use!
+For a week during the coronavirus quarantine, I am challenging myself to complete one Leetcode problem each day. Might as well put this free time to good use!
 
 I will be completing each problem in the Kotlin language, as I want to continue to become more familiar with its features and best practices.
 
@@ -199,3 +199,66 @@ Notes:
 - It looks like the problem is actually outdated: the ListNode class is declared with a `var` parameter, which is now no longer supported. I was not sure how to handle this at first. Turns out backticks are required to access the property.
 - Another consideration was keeping track of the result: while I needed to access the most recent node of the resulting list, I had to keep a reference to the head of the list available. The head of the list is returned for the final result at the end. Otherwise only the last node will be submitted!
 - My result did well on speed; it's faster than 83% of other Kotlin submissions. It also uses less memory than 100% of other Kotlin submissions.
+
+### Day 6: Middle of the Linked List
+[Link to the problem](https://leetcode.com/problems/middle-of-the-linked-list/)
+
+My Solution
+```kotlin
+class Solution {
+    fun middleNode(head: ListNode?): ListNode? {
+        var count = 0
+        var node = head
+        
+        while (node != null) {
+            count++
+            node = node?.next
+        }
+        
+        var mid = count / 2
+        node = head
+        
+        for (n in 0 until mid) {
+            node = node?.next
+        }
+        
+        return node
+    }
+}
+```
+
+Notes:
+- I will admit, I missed a few days of Leetcode in the middle here! I'm definitely still adjusting to quarrantine life.
+- This is a simple problem using a singly linked list.
+- While it would be nice to only loop over the list once, since it is singly-linked we have to traverse it at least one and a half times: Once to find the total length, and another to return to the middle node.
+- This solution was faster than 95.42% of other Kotlin submissions; I'm not exactly sure what others would be doing to make it slower!
+
+### Day 7: Best Time to Buy and Sell Stock II
+[Link to the problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+
+My Solution
+```kotlin
+class Solution {
+    fun maxProfit(prices: IntArray): Int {
+        var profit = 0
+        for (i in 0 until (prices.size - 1)) {
+            if (prices[i] < prices[i+1]) profit += prices[i+1] - prices[i]
+        }
+        
+        return profit
+    }
+}
+```
+
+Notes:
+- The solution to this problem ended up being a lot simpler than I first thought! The key insight here is that to maximize profit, you want to be earning *each and every time the stock price rises*.
+    - This means that you always want to purchase in the "valleys" and sell at the "peaks", or at the local minima and maxima.
+- While this algorithm means that you are sometimes selling and buying on the same day, when prices continue to rise consecutively, this does not matter because the costs cancel out to zero. The only thing we care about is the maximum possible profit.
+- My first thought process was to brute-force it with a weighted graph and Dijkstra's algorithm, but this solution is *much* simpler.
+
+### Conclusion
+Well, I have a week's worth of LeetCode, even if it took me a bit longer than a week! However, I do feel like this process was helpful, and definitely plan on continuing the habit of solving LeetCode problems.
+
+I gained a lot of familiarity with primitive lists in Kotlin, and picked up some neat langauge tricks along the way. In addition, I was able to refresh my skills with the content of my Data Structures and Algorithms courses.
+
+I hope you enjoyed this writeup and feel inspired to solve some problems of your own now! Stay tuned to see what else I am up to during this quarrantine.
