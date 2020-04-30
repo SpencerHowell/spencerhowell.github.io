@@ -144,6 +144,11 @@ li.header-right {
  .footer a {
      display: inline-block;
  }
+
+ .footer p {
+     text-align: center;
+     font-size: 14px;
+ }
  
  .footer-back {
      float: left;
