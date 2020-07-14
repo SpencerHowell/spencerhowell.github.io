@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tiger King Business Model Canavs
+title: Tiger King Business Model Canvas
 ---
 *Joe Exotic, Entrepreneur*
 
