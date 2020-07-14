@@ -16,4 +16,4 @@ Check out my blog posts for more information about my projects and experiences!
 
 ### Contact me
 
-[showel17@vols.utk.edu](mailto:showel17@vols.utk.edu)
+[spencerhowell@tennessee.edu](mailto:spencerhowell@tennessee.edu)
