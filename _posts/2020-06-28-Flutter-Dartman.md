@@ -9,12 +9,12 @@ This past weekend, I participated in the [#Hack20 Global Flutter Hackathon](http
 Based on the hackathon's theme of "Retro/Cyberpunk," I decided to build the *Flutter Dartman* - a recreation of the classic Sony Walkman.
 
 ### The App
-![Dartman Demo Gif](/images/dartman-demo.gif)
-*Demo of the Flutter Dartman*
+![Dartman Demo Gif](/images/dartman-demo.gif)  
+*Demo of the Flutter Dartman*  
 
 This Android mobile app allows users to select from "casette tapes" present in their local storage and listen just like they did way back in 1979.
 
-![Original Walkman](/images/original-walkman.png)
+![Original Walkman](/images/original-walkman.png)  
 *The original Sony Walkman, for reference!*
 
 ### Features
